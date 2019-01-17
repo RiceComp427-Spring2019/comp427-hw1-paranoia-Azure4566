@@ -49,25 +49,32 @@ please cut-and-paste the text from that email here._
   - No unauthorized external aid/ cooperation is allowed for this homework.
 - Assets:
   - The fairness of grading among all students. Works with same level of correctness should receive similar grades.
-  - 
+  - The academic integrity requirements for the homework need to be enforced, that is any work that involved unauthorized aid need to be identified.
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - Students might be referencing publicly avaliable solutions to problems. For a coding assignment this might be code on a github public repo, and for normal assignments it might be solutions from a solution manual etc. 
+  - Students might be collaborating without permission.
+  - Some students might be plagiarizing the work of others without the other party knowing.
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - Cross check the works of all student submissions, and for problems whose anwsers should not be definite, focus on similar works and closely review to determine if any collaboration or plagiarism is involved.
+  - Check creative works again solution avaliable in the public domain. If the idea and implementation are both too similar to the published solution, then unallowed reference might be involved.
 
 ## Problem 3
-- Scenario: Your choice (give a brief explanation)
+- Scenario: In app purchase system for a mobile game
 - Assumptions:
-  - explain_your_assumptions
+  - the game will be published on google play store and apple app store, and payment will be processed through the two store systems
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - The respective share of income for each and every in game purcahse. This is the important source for income of the game, for server upkeep and game updates and maintainence.
+  - The in game environment balance. The microtransaction purcahses if gone wrong can destroy the balance of game.
+  - The user experience, they should receive the coorect thing they paid for.
+  - The payment information and records of the users. 
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - Credit card fraud. This is the most common threat to game developers, some user will use fraud credit card info to make purchase, and once the original owner makes a chargeback, the income is lost while the in game item is already given out.
+  - Stolen apple/google account balance. Purcahses made with balance in a stolen google/apple account will be charged back and is another potential lost of income.
+  - Hacking of the game server to gain paid items. Hacker might be aiming to crack the database system and edit paid items into user accounts.
+  - Man in the middle attack to trick the server that payment has been received.
+  - Breakthrough of transaction log to get user info for other frauds.
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - Frequent backup of user data in database, so a rollback to a recent backup will always be avaliable in case of a large crack.
+  - Detailed encrypted transcation log with multifactor authentication for access, so items can be recalled if a chargeback happens from credit company or google/apple. Encryption and multifactor authentication will help prevent information leaks.
+  - Financial level communition encryption for all communications to prevent MITM attacks, and do multiple checks before transaction is confirmed
 
